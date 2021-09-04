@@ -1,3 +1,2 @@
 # jupyter_notebook_docker
-jupyter notebook docker   
-x
+jupyter notebook docker
