@@ -1,6 +1,7 @@
 version: '3.8'
 services:
   jupyter_notebook:
+    restart: always
     build: jupyter
     volumes:
       - ./jupyter/src/:/home/jovyan/work
