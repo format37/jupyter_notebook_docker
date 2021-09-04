@@ -14,5 +14,6 @@ cd jupyter_notebook_docker
 ./compose.sh
 ```
 4. Open docker container's logs and get connection string   
-5. Paste connection string in browser and go. All files will be stored in mounted volume work/
+5. Paste connection string in browser and go.   
+Only files, stored in mounted volume work/ will be saved after container's restart.
 
