@@ -13,6 +13,6 @@ cd jupyter_notebook_docker
 ```
 ./compose.sh
 ```
-4. Open docker image logs and get connection string   
+4. Open docker container's logs and get connection string   
 5. Paste connection string in browser and go. All files will be stored in mounted volume work/
 
