@@ -4,7 +4,7 @@ services:
     restart: always
     build: jupyter
     volumes:
-      - ./jupyter/src/:/home/jovyan/work
+      - /home/alex/rig1/projects/pc:/home/jovyan/work
     ports:
       - 8888:8888
     deploy:

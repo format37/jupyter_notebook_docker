@@ -8,12 +8,13 @@ git clone https://github.com/format37/jupyter_notebook_docker.git
 cd jupyter_notebook_docker
 ```
 2. define your GPU's in docker-compose.yml   
-3. select and uncomment actual for your tasks image in jupyter/Dockerfile   
+3. define your work path on the left side, in volumes: section, in docker-compose.yml   
+4. select and uncomment actual for your tasks image in jupyter/Dockerfile   
 [More jupyter images](https://hub.docker.com/u/jupyter)
 ```
 ./compose.sh
 ```
-4. Open docker container's logs and get connection string   
-5. Paste connection string in browser and go.   
+5. Open docker container's logs and get connection string   
+6. Paste connection string in browser and go.   
 Only files, stored in mounted volume work/ will be saved after container's restart.
 
