@@ -5,6 +5,8 @@ services:
     build: jupyter
     volumes:
       - /home/alex/rig1/projects/pc:/home/jovyan/work
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     ports:
       - 8888:8888
     deploy:
