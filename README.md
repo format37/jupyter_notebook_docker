@@ -1,5 +1,6 @@
 # jupyter notebook docker
 Store your jupyter notebook server in docker container with gpu support   
+[current tf-gpu docker image](https://hub.docker.com/r/yhavinga/jupyter-tensorflow-pytorch-gpu)
 ### installation
 You will need an installed portainer to get connection token
 1. Clone repo:
