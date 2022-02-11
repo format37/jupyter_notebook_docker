@@ -9,6 +9,10 @@ services:
       - /etc/timezone:/etc/timezone:ro
     ports:
       - 8888:8888
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
     deploy:
       resources:
         reservations:
